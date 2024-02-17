@@ -1,0 +1,42 @@
+{
+  "0f57b101f9efe461ff65fea9b009c3eb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "32b7062de10c3682",
+      "reportUrl" : "https://Nat754.github.io/reqres/1//#testresult/32b7062de10c3682",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708200473282,
+        "stop" : 1708200473542,
+        "duration" : 260
+      }
+    } ]
+  },
+  "34561df1959273089f6fbf9583dd0e59" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "395d3a167a16203a",
+      "reportUrl" : "https://Nat754.github.io/reqres/1//#testresult/395d3a167a16203a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708200473206,
+        "stop" : 1708200473280,
+        "duration" : 74
+      }
+    } ]
+  }
+}

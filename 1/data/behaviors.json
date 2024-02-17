@@ -1,0 +1,35 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "GET",
+    "children" : [ {
+      "name" : "GET Получить список пользователей",
+      "uid" : "395d3a167a16203a",
+      "parentUid" : "0d92fb81cca648f303468358c618ac73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708200473206,
+        "stop" : 1708200473280,
+        "duration" : 74
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GET Получить список пользователей неверный эндпоинт",
+      "uid" : "32b7062de10c3682",
+      "parentUid" : "0d92fb81cca648f303468358c618ac73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708200473282,
+        "stop" : 1708200473542,
+        "duration" : 260
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0d92fb81cca648f303468358c618ac73"
+  } ],
+  "name" : "behaviors"
+}

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "395d3a167a16203a",
+  "name" : "GET Получить список пользователей",
+  "time" : {
+    "start" : 1708200473206,
+    "stop" : 1708200473280,
+    "duration" : 74
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32b7062de10c3682",
+  "name" : "GET Получить список пользователей неверный эндпоинт",
+  "time" : {
+    "start" : 1708200473282,
+    "stop" : 1708200473542,
+    "duration" : 260
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

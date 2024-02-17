@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "get_users_test",
+      "children" : [ {
+        "name" : "TestAPI",
+        "children" : [ {
+          "name" : "GET Получить список пользователей",
+          "uid" : "395d3a167a16203a",
+          "parentUid" : "b04bc4c9fa8fa8ea9e97fbeb63bf4abf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1708200473206,
+            "stop" : 1708200473280,
+            "duration" : 74
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "GET Получить список пользователей неверный эндпоинт",
+          "uid" : "32b7062de10c3682",
+          "parentUid" : "b04bc4c9fa8fa8ea9e97fbeb63bf4abf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1708200473282,
+            "stop" : 1708200473542,
+            "duration" : 260
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b04bc4c9fa8fa8ea9e97fbeb63bf4abf"
+      } ],
+      "uid" : "5ad1f7e57fca5bdcb6221466bafef705"
+    } ],
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374"
+  } ],
+  "name" : "suites"
+}

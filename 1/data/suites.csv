@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Feb 17 20:07:53 GMT 2024","Sat Feb 17 20:07:53 GMT 2024","260","tests","get_users_test","TestAPI","","","GET Получить список пользователей неверный эндпоинт",""
+"passed","Sat Feb 17 20:07:53 GMT 2024","Sat Feb 17 20:07:53 GMT 2024","74","tests","get_users_test","TestAPI","","","GET Получить список пользователей",""

@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az659-691",
+    "children" : [ {
+      "name" : "2205-MainThread",
+      "children" : [ {
+        "name" : "GET Получить список пользователей неверный эндпоинт",
+        "uid" : "32b7062de10c3682",
+        "parentUid" : "3fe9a2e4a544f4d4a37ed40e6c0f0f6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708200473282,
+          "stop" : 1708200473542,
+          "duration" : 260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "GET Получить список пользователей",
+        "uid" : "395d3a167a16203a",
+        "parentUid" : "3fe9a2e4a544f4d4a37ed40e6c0f0f6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708200473206,
+          "stop" : 1708200473280,
+          "duration" : 74
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3fe9a2e4a544f4d4a37ed40e6c0f0f6b"
+    } ],
+    "uid" : "0ad550da1dedf2e48fc112988e75cc9e"
+  } ],
+  "name" : "timeline"
+}
