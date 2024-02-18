@@ -1,0 +1,69 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Create User",
+    "children" : [ {
+      "name" : "POST Создать пользователя",
+      "uid" : "2e261c8f0ea4c6e7",
+      "parentUid" : "e2d6094369373ff4384610fc16817cc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708286758010,
+        "stop" : 1708286758433,
+        "duration" : 423
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e2d6094369373ff4384610fc16817cc0"
+  }, {
+    "name" : "List Users",
+    "children" : [ {
+      "name" : "GET Получить список пользователей",
+      "uid" : "62fb3dcc827b849c",
+      "parentUid" : "33c2addcf38b184b9b3f2079f2df5845",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708286758435,
+        "stop" : 1708286758516,
+        "duration" : 81
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GET Получить список пользователей неверный эндпоинт",
+      "uid" : "69f5b188c4524143",
+      "parentUid" : "33c2addcf38b184b9b3f2079f2df5845",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708286758518,
+        "stop" : 1708286758878,
+        "duration" : 360
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "33c2addcf38b184b9b3f2079f2df5845"
+  }, {
+    "name" : "GET Single User",
+    "children" : [ {
+      "name" : "GET Попытка получить несуществующего пользователя с id 23",
+      "uid" : "e08d8b76fec3b4b3",
+      "parentUid" : "cda003a24f89f8713abda450ceb13987",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708286758879,
+        "stop" : 1708286759276,
+        "duration" : 397
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cda003a24f89f8713abda450ceb13987"
+  } ],
+  "name" : "behaviors"
+}

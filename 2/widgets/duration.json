@@ -1,0 +1,41 @@
+[ {
+  "uid" : "62fb3dcc827b849c",
+  "name" : "GET Получить список пользователей",
+  "time" : {
+    "start" : 1708286758435,
+    "stop" : 1708286758516,
+    "duration" : 81
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e261c8f0ea4c6e7",
+  "name" : "POST Создать пользователя",
+  "time" : {
+    "start" : 1708286758010,
+    "stop" : 1708286758433,
+    "duration" : 423
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69f5b188c4524143",
+  "name" : "GET Получить список пользователей неверный эндпоинт",
+  "time" : {
+    "start" : 1708286758518,
+    "stop" : 1708286758878,
+    "duration" : 360
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e08d8b76fec3b4b3",
+  "name" : "GET Попытка получить несуществующего пользователя с id 23",
+  "time" : {
+    "start" : 1708286758879,
+    "stop" : 1708286759276,
+    "duration" : 397
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

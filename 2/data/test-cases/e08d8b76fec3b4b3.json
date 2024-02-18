@@ -1,0 +1,74 @@
+{
+  "uid" : "e08d8b76fec3b4b3",
+  "name" : "GET Попытка получить несуществующего пользователя с id 23",
+  "fullName" : "tests.single_user_test.TestAPISingleUser#test_get_single_user",
+  "historyId" : "c4b7325dcbbe83169b072ed54f2f0650",
+  "time" : {
+    "start" : 1708286758879,
+    "stop" : 1708286759276,
+    "duration" : 397
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1708286757994,
+      "stop" : 1708286758010,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "GET Single User"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "single_user_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAPISingleUser"
+  }, {
+    "name" : "host",
+    "value" : "fv-az714-622"
+  }, {
+    "name" : "thread",
+    "value" : "2216-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.single_user_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e08d8b76fec3b4b3.json",
+  "parameterValues" : [ ]
+}

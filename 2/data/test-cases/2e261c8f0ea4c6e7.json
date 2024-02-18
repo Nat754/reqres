@@ -1,0 +1,74 @@
+{
+  "uid" : "2e261c8f0ea4c6e7",
+  "name" : "POST Создать пользователя",
+  "fullName" : "tests.create_users_test.TestCreateUser#test_post_create_user",
+  "historyId" : "376ab0ab06d2f049ae20177c0c0b3746",
+  "time" : {
+    "start" : 1708286758010,
+    "stop" : 1708286758433,
+    "duration" : 423
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1708286757994,
+      "stop" : 1708286758010,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Create User"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "create_users_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreateUser"
+  }, {
+    "name" : "host",
+    "value" : "fv-az714-622"
+  }, {
+    "name" : "thread",
+    "value" : "2216-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.create_users_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e261c8f0ea4c6e7.json",
+  "parameterValues" : [ ]
+}

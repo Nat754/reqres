@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az714-622",
+    "children" : [ {
+      "name" : "2216-MainThread",
+      "children" : [ {
+        "name" : "GET Получить список пользователей",
+        "uid" : "62fb3dcc827b849c",
+        "parentUid" : "aeb396829e67892d9beee9cd0796e9fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708286758435,
+          "stop" : 1708286758516,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "POST Создать пользователя",
+        "uid" : "2e261c8f0ea4c6e7",
+        "parentUid" : "aeb396829e67892d9beee9cd0796e9fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708286758010,
+          "stop" : 1708286758433,
+          "duration" : 423
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "GET Получить список пользователей неверный эндпоинт",
+        "uid" : "69f5b188c4524143",
+        "parentUid" : "aeb396829e67892d9beee9cd0796e9fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708286758518,
+          "stop" : 1708286758878,
+          "duration" : 360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "GET Попытка получить несуществующего пользователя с id 23",
+        "uid" : "e08d8b76fec3b4b3",
+        "parentUid" : "aeb396829e67892d9beee9cd0796e9fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708286758879,
+          "stop" : 1708286759276,
+          "duration" : 397
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aeb396829e67892d9beee9cd0796e9fc"
+    } ],
+    "uid" : "80bd3472aab5620f0ee26782c48ce82f"
+  } ],
+  "name" : "timeline"
+}

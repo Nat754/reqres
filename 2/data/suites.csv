@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Feb 18 20:05:58 GMT 2024","Sun Feb 18 20:05:58 GMT 2024","81","tests","list_users_test","TestListUsers","","","GET Получить список пользователей",""
+"passed","Sun Feb 18 20:05:58 GMT 2024","Sun Feb 18 20:05:58 GMT 2024","423","tests","create_users_test","TestCreateUser","","","POST Создать пользователя",""
+"passed","Sun Feb 18 20:05:58 GMT 2024","Sun Feb 18 20:05:58 GMT 2024","360","tests","list_users_test","TestListUsers","","","GET Получить список пользователей неверный эндпоинт",""
+"passed","Sun Feb 18 20:05:58 GMT 2024","Sun Feb 18 20:05:59 GMT 2024","397","tests","single_user_test","TestAPISingleUser","","","GET Попытка получить несуществующего пользователя с id 23",""

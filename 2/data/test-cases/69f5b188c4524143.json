@@ -1,0 +1,74 @@
+{
+  "uid" : "69f5b188c4524143",
+  "name" : "GET Получить список пользователей неверный эндпоинт",
+  "fullName" : "tests.list_users_test.TestListUsers#test_get_users",
+  "historyId" : "406acdb60751bef93d393f2453fe09e4",
+  "time" : {
+    "start" : 1708286758518,
+    "stop" : 1708286758878,
+    "duration" : 360
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1708286757994,
+      "stop" : 1708286758010,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "List Users"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "list_users_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestListUsers"
+  }, {
+    "name" : "host",
+    "value" : "fv-az714-622"
+  }, {
+    "name" : "thread",
+    "value" : "2216-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.list_users_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69f5b188c4524143.json",
+  "parameterValues" : [ ]
+}
