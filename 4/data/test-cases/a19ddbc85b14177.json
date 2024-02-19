@@ -1,0 +1,102 @@
+{
+  "uid" : "a19ddbc85b14177",
+  "name" : "Check response has key job",
+  "fullName" : "tests.create_users_test.TestCreateUser#test_post_create_user_key_name_is_in_response",
+  "historyId" : "69c5592a914d8c410c9fede56af1e2a2",
+  "time" : {
+    "start" : 1708385915901,
+    "stop" : 1708385916241,
+    "duration" : 340
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1708385914774,
+      "stop" : 1708385914790,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "The key 2024-02-19T23:38:36.164Z exist",
+      "time" : {
+        "start" : 1708385916241,
+        "stop" : 1708385916241,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Create User"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "create_users_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreateUser"
+  }, {
+    "name" : "host",
+    "value" : "fv-az698-202"
+  }, {
+    "name" : "thread",
+    "value" : "2227-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.create_users_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "key_name",
+    "value" : "'createdAt'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a19ddbc85b14177.json",
+  "parameterValues" : [ "'createdAt'" ]
+}

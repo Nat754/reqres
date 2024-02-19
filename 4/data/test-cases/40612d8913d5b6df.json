@@ -1,0 +1,99 @@
+{
+  "uid" : "40612d8913d5b6df",
+  "name" : "Check format is json",
+  "fullName" : "tests.create_users_test.TestCreateUser#test_post_create_user_response_is_json",
+  "historyId" : "b621527fd8983dfeb2aa858b0cad6eab",
+  "time" : {
+    "start" : 1708385915190,
+    "stop" : 1708385915549,
+    "duration" : 359
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1708385914774,
+      "stop" : 1708385914790,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Response is in JSON format",
+      "time" : {
+        "start" : 1708385915548,
+        "stop" : 1708385915548,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Create User"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "create_users_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreateUser"
+  }, {
+    "name" : "host",
+    "value" : "fv-az698-202"
+  }, {
+    "name" : "thread",
+    "value" : "2227-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.create_users_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "40612d8913d5b6df.json",
+  "parameterValues" : [ ]
+}

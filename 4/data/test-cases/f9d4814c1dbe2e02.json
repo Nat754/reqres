@@ -1,0 +1,99 @@
+{
+  "uid" : "f9d4814c1dbe2e02",
+  "name" : "GET Send request get with body",
+  "fullName" : "tests.create_users_test.TestCreateUser#test_get_create_user",
+  "historyId" : "44ef16de97cbb6b7bbfd1ded772644d2",
+  "time" : {
+    "start" : 1708385917744,
+    "stop" : 1708385917801,
+    "duration" : 57
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1708385914774,
+      "stop" : 1708385914790,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Expected status 200",
+      "time" : {
+        "start" : 1708385917800,
+        "stop" : 1708385917800,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Create User"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "create_users_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreateUser"
+  }, {
+    "name" : "host",
+    "value" : "fv-az698-202"
+  }, {
+    "name" : "thread",
+    "value" : "2227-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.create_users_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f9d4814c1dbe2e02.json",
+  "parameterValues" : [ ]
+}
