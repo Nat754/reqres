@@ -19,7 +19,7 @@ class Logger:
 
     @classmethod
     def add_request(cls, url: str, data: dict, headers: dict, cookies: dict, method: str):
-        data_to_add = f"{'#'*120}\n\n"
+        data_to_add = f'***\n\n'
         data_to_add += f'{str(datetime.datetime.now().strftime("%d.%m.%Y %H:%M:%S"))}\n'
         data_to_add += f"Test name: {os.environ.get('PYTEST_CURRENT_TEST')}\n"
         data_to_add += f"Request method: {method}\n"

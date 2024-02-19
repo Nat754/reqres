@@ -3,7 +3,7 @@ from data.constant import Constant
 from base.logger import Logger
 
 
-class BaseRequests:
+class BaseRequests():
 
     @staticmethod
     def _send(link: str, data: dict, headers: {}, cookies: {}, method: str):

@@ -1,15 +1,80 @@
 import allure
+import pytest
+
 from base.assertions import Assertions
-from data.constant import StatusCode, Constant
+from data.constant import StatusCode, Data, Constant
 from base.methods import BaseRequests
 
 
-@allure.epic("Create User")
+@allure.epic('Create User')
 class TestCreateUser:
     status = StatusCode
+    data = Data
     constant = Constant
 
-    @allure.title("POST Создать пользователя")
+    @allure.title('POST Create user')
     def test_post_create_user(self):
-        response = BaseRequests.post(url='', headers=self.constant.CREATE_USER)
+        response = BaseRequests.post(url='api/users', headers=self.data.CREATE_USER)
         Assertions.assert_code_status(response, self.status.STATUS_CODE_201)
+
+    @allure.title('Check format is json')
+    def test_post_create_user_response_is_json(self):
+        response = BaseRequests.post(url='api/users', headers=self.data.CREATE_USER)
+        Assertions.assert_response_is_json(response)
+
+    @pytest.mark.parametrize('key_name', data.LIST_KEY)
+    @allure.title('Check response has key job')
+    def test_post_create_user_key_name_is_in_response(self, key_name):
+        headers = self.data.CREATE_USER
+        response = BaseRequests.post(url='api/users', headers=headers)
+        Assertions.assert_key_name_is_in_response(response, key_name)
+
+    @pytest.mark.xfail(reason='Bag')
+    @pytest.mark.parametrize('key_name', data.CREATE_USER)
+    @allure.title('Check response has key job')
+    def test_post_create_user_key_value_is_in_response(self, key_name):
+        headers = self.data.CREATE_USER
+        response = BaseRequests.post(url='api/users', headers=headers)
+        Assertions.assert_key_value_is_in_response(response, headers, key_name)
+
+    @allure.title('GET Send request get with body')
+    def test_get_create_user(self):
+        response = BaseRequests.get(url='api/users', headers=self.data.CREATE_USER)
+        Assertions.assert_code_status(response, self.status.STATUS_CODE_200)
+
+    @pytest.mark.xfail(reason='Bag')
+    @allure.title('POST Создать пользователя без тела запроса')
+    def test_post_create_user_without_body(self):
+        response = BaseRequests.post(url='api/users')
+        Assertions.assert_is_not_code_status(response, self.status.STATUS_CODE_201)
+
+    @pytest.mark.xfail(reason='Bag')
+    @allure.title('POST Create user without job')
+    def test_post_create_user_without_job(self):
+        response = BaseRequests.post(url='api/users', data=self.data.NAME_USER)
+        print('cod', response.status_code)
+        Assertions.assert_is_not_code_status(response, self.status.STATUS_CODE_201)
+
+    @pytest.mark.xfail(reason='Bag')
+    @allure.title('POST Create user without name')
+    def test_post_create_user_without_name(self):
+        response = BaseRequests.post(url='api/users', headers=self.data.JOB_USER)
+        Assertions.assert_is_not_code_status(response, self.status.STATUS_CODE_201)
+
+    @pytest.mark.xfail(reason='Bag')
+    @allure.title('POST Create user with None job')
+    def test_post_create_user_with_none_job(self):
+        response = BaseRequests.post(url='api/users', headers=self.data.CREATE_USER_JOB_NONE)
+        Assertions.assert_is_not_code_status(response, self.status.STATUS_CODE_201)
+
+    @pytest.mark.xfail(reason='Bag')
+    @allure.title('POST Create user with None name')
+    def test_post_create_user_with_none_name(self):
+        response = BaseRequests.post(url='api/users', headers=self.data.CREATE_USER)
+        Assertions.assert_is_not_code_status(response, self.status.STATUS_CODE_201)
+
+    @pytest.mark.xfail(reason='Bag')
+    @allure.title('POST Create user as {}')
+    def test_post_create_user_as_none(self):
+        response = BaseRequests.post(url='api/users', headers={})
+        Assertions.assert_is_not_code_status(response, self.status.STATUS_CODE_201)
