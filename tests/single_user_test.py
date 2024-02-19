@@ -14,6 +14,6 @@ class TestAPISingleUser:
         Assertions.assert_code_status(response, self.status.STATUS_CODE_200)
 
     @allure.title("GET Попытка получить несуществующего пользователя с id 23")
-    def test_get_single_user(self):
+    def test_get_not_existing_single_user(self):
         response = BaseRequests.get(url='/23')
         Assertions.assert_code_status(response, self.status.STATUS_CODE_404)
