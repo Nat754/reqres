@@ -1,0 +1,98 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "create_users_test",
+      "children" : [ {
+        "name" : "TestCreateUser",
+        "children" : [ {
+          "name" : "POST Создать пользователя",
+          "uid" : "7c9150b985c0c5c8",
+          "parentUid" : "c665572f2a9de83963c3f8404614c857",
+          "status" : "passed",
+          "time" : {
+            "start" : 1708347270844,
+            "stop" : 1708347271113,
+            "duration" : 269
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c665572f2a9de83963c3f8404614c857"
+      } ],
+      "uid" : "d24a3f972ac03bf36975b5b239b4e338"
+    }, {
+      "name" : "list_users_test",
+      "children" : [ {
+        "name" : "TestListUsers",
+        "children" : [ {
+          "name" : "GET Получить список пользователей",
+          "uid" : "90398f4039563f96",
+          "parentUid" : "05dfb144881c95ea458e77d3aa1c1463",
+          "status" : "passed",
+          "time" : {
+            "start" : 1708347271115,
+            "stop" : 1708347271162,
+            "duration" : 47
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "GET Получить список пользователей неверный эндпоинт",
+          "uid" : "93ce9e72700a5a3a",
+          "parentUid" : "05dfb144881c95ea458e77d3aa1c1463",
+          "status" : "passed",
+          "time" : {
+            "start" : 1708347271163,
+            "stop" : 1708347271431,
+            "duration" : 268
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "05dfb144881c95ea458e77d3aa1c1463"
+      } ],
+      "uid" : "0a3544482f8146a59ff6347b6a9094de"
+    }, {
+      "name" : "single_user_test",
+      "children" : [ {
+        "name" : "TestAPISingleUser",
+        "children" : [ {
+          "name" : "GET Получить одного пользователя с id 2",
+          "uid" : "d81e0effb6df0a23",
+          "parentUid" : "c1b4917bee88a91a016e014874e0bdd6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1708347271432,
+            "stop" : 1708347271692,
+            "duration" : 260
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "GET Попытка получить несуществующего пользователя с id 23",
+          "uid" : "acbc9480d0679a0d",
+          "parentUid" : "c1b4917bee88a91a016e014874e0bdd6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1708347271693,
+            "stop" : 1708347271957,
+            "duration" : 264
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c1b4917bee88a91a016e014874e0bdd6"
+      } ],
+      "uid" : "4c9b545dba254e0dfaeef2dc3c72b327"
+    } ],
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374"
+  } ],
+  "name" : "suites"
+}

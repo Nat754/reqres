@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az975-712",
+    "children" : [ {
+      "name" : "2221-MainThread",
+      "children" : [ {
+        "name" : "POST Создать пользователя",
+        "uid" : "7c9150b985c0c5c8",
+        "parentUid" : "af3863b088dcfd7d8d11732dbbbbbad4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708347270844,
+          "stop" : 1708347271113,
+          "duration" : 269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "GET Получить одного пользователя с id 2",
+        "uid" : "d81e0effb6df0a23",
+        "parentUid" : "af3863b088dcfd7d8d11732dbbbbbad4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708347271432,
+          "stop" : 1708347271692,
+          "duration" : 260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "GET Получить список пользователей неверный эндпоинт",
+        "uid" : "93ce9e72700a5a3a",
+        "parentUid" : "af3863b088dcfd7d8d11732dbbbbbad4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708347271163,
+          "stop" : 1708347271431,
+          "duration" : 268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "GET Получить список пользователей",
+        "uid" : "90398f4039563f96",
+        "parentUid" : "af3863b088dcfd7d8d11732dbbbbbad4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708347271115,
+          "stop" : 1708347271162,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "GET Попытка получить несуществующего пользователя с id 23",
+        "uid" : "acbc9480d0679a0d",
+        "parentUid" : "af3863b088dcfd7d8d11732dbbbbbad4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708347271693,
+          "stop" : 1708347271957,
+          "duration" : 264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "af3863b088dcfd7d8d11732dbbbbbad4"
+    } ],
+    "uid" : "5813722f500e4e3eb26dfea664e5b3fc"
+  } ],
+  "name" : "timeline"
+}

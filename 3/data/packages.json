@@ -1,0 +1,86 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "create_users_test",
+      "children" : [ {
+        "name" : "POST Создать пользователя",
+        "uid" : "7c9150b985c0c5c8",
+        "parentUid" : "27a9b3d3173c344d7c72986a4418e158",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708347270844,
+          "stop" : 1708347271113,
+          "duration" : 269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "27a9b3d3173c344d7c72986a4418e158"
+    }, {
+      "name" : "list_users_test",
+      "children" : [ {
+        "name" : "GET Получить список пользователей",
+        "uid" : "90398f4039563f96",
+        "parentUid" : "a0de0c46072e0b686c6f39182e829884",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708347271115,
+          "stop" : 1708347271162,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "GET Получить список пользователей неверный эндпоинт",
+        "uid" : "93ce9e72700a5a3a",
+        "parentUid" : "a0de0c46072e0b686c6f39182e829884",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708347271163,
+          "stop" : 1708347271431,
+          "duration" : 268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a0de0c46072e0b686c6f39182e829884"
+    }, {
+      "name" : "single_user_test",
+      "children" : [ {
+        "name" : "GET Получить одного пользователя с id 2",
+        "uid" : "d81e0effb6df0a23",
+        "parentUid" : "d51a5c77496eff8514fa3ea15795af12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708347271432,
+          "stop" : 1708347271692,
+          "duration" : 260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "GET Попытка получить несуществующего пользователя с id 23",
+        "uid" : "acbc9480d0679a0d",
+        "parentUid" : "d51a5c77496eff8514fa3ea15795af12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708347271693,
+          "stop" : 1708347271957,
+          "duration" : 264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d51a5c77496eff8514fa3ea15795af12"
+    } ],
+    "uid" : "bf49149a3821e34f7608bb6885d52868"
+  } ],
+  "name" : "packages"
+}

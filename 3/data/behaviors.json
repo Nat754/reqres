@@ -1,0 +1,82 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Create User",
+    "children" : [ {
+      "name" : "POST Создать пользователя",
+      "uid" : "7c9150b985c0c5c8",
+      "parentUid" : "e2d6094369373ff4384610fc16817cc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708347270844,
+        "stop" : 1708347271113,
+        "duration" : 269
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e2d6094369373ff4384610fc16817cc0"
+  }, {
+    "name" : "List Users",
+    "children" : [ {
+      "name" : "GET Получить список пользователей",
+      "uid" : "90398f4039563f96",
+      "parentUid" : "33c2addcf38b184b9b3f2079f2df5845",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708347271115,
+        "stop" : 1708347271162,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GET Получить список пользователей неверный эндпоинт",
+      "uid" : "93ce9e72700a5a3a",
+      "parentUid" : "33c2addcf38b184b9b3f2079f2df5845",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708347271163,
+        "stop" : 1708347271431,
+        "duration" : 268
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "33c2addcf38b184b9b3f2079f2df5845"
+  }, {
+    "name" : "GET Single User",
+    "children" : [ {
+      "name" : "GET Получить одного пользователя с id 2",
+      "uid" : "d81e0effb6df0a23",
+      "parentUid" : "cda003a24f89f8713abda450ceb13987",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708347271432,
+        "stop" : 1708347271692,
+        "duration" : 260
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GET Попытка получить несуществующего пользователя с id 23",
+      "uid" : "acbc9480d0679a0d",
+      "parentUid" : "cda003a24f89f8713abda450ceb13987",
+      "status" : "passed",
+      "time" : {
+        "start" : 1708347271693,
+        "stop" : 1708347271957,
+        "duration" : 264
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cda003a24f89f8713abda450ceb13987"
+  } ],
+  "name" : "behaviors"
+}
