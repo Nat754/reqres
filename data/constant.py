@@ -1,4 +1,3 @@
-import pytest
 from faker import Faker
 
 faker = Faker('En')
@@ -23,5 +22,3 @@ class Data:
     CREATE_USER_NAME_NONE ={"name": None, "job": faker.job()}
     CREATE_USER_JOB_NONE = {"name": faker.name(), "job": None}
     LIST_KEY = ['id', 'createdAt', 'name', 'job']
-    # LIST_KEY = ['id', 'createdAt', pytest.param('name', marks=pytest.mark.xfail(reason='Bag')),
-    #             pytest.param('job', marks=pytest.mark.xfail(reason='Bag'))]

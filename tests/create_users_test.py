@@ -1,7 +1,6 @@
 import allure
 import pytest
 import requests
-
 from base.assertions import Assertions
 from data.constant import StatusCode, Data, Constant
 from base.methods import BaseRequests
