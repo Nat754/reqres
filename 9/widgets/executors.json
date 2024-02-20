@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://Nat754.github.io/reqres",
+  "buildOrder" : 9,
+  "buildName" : "GitHub Actions Run #7971114663",
+  "buildUrl" : "https://github.com/Nat754/reqres/actions/runs/7971114663",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://Nat754.github.io/reqres/9/"
+} ]
