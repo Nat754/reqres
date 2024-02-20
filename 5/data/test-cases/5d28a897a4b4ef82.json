@@ -1,0 +1,122 @@
+{
+  "uid" : "5d28a897a4b4ef82",
+  "name" : "Check response has key job",
+  "fullName" : "tests.create_users_test.TestCreateUser#test_post_create_user_key_name_is_in_response",
+  "historyId" : "69c5592a914d8c410c9fede56af1e2a2",
+  "time" : {
+    "start" : 1708388621427,
+    "stop" : 1708388621667,
+    "duration" : 240
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1708388620677,
+      "stop" : 1708388620692,
+      "duration" : 15
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "The key 2024-02-20T00:23:41.616Z exist",
+      "time" : {
+        "start" : 1708388621666,
+        "stop" : 1708388621666,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Create User"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "create_users_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreateUser"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1024-431"
+  }, {
+    "name" : "thread",
+    "value" : "2231-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.create_users_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "key_name",
+    "value" : "'createdAt'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a19ddbc85b14177",
+        "reportUrl" : "https://Nat754.github.io/reqres/4//#testresult/a19ddbc85b14177",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708385915901,
+          "stop" : 1708385916241,
+          "duration" : 340
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5d28a897a4b4ef82.json",
+  "parameterValues" : [ "'createdAt'" ]
+}

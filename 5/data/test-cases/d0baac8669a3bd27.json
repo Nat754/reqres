@@ -1,0 +1,132 @@
+{
+  "uid" : "d0baac8669a3bd27",
+  "name" : "Check response has key job",
+  "fullName" : "tests.create_users_test.TestCreateUser#test_post_create_user_key_name_is_in_response",
+  "historyId" : "8c13af4cca75082904cd6ee642883bc5",
+  "time" : {
+    "start" : 1708388621937,
+    "stop" : 1708388622167,
+    "duration" : 230
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL Bag\n\nAssertionError: The key None does not exist",
+  "statusTrace" : "self = <tests.create_users_test.TestCreateUser object at 0x7ff94285e850>\nkey_name = 'job'\n\n    @pytest.mark.parametrize('key_name', data.LIST_KEY)\n    @allure.title('Check response has key job')\n    def test_post_create_user_key_name_is_in_response(self, key_name):\n        headers = self.data.CREATE_USER\n        response = BaseRequests.post(url='api/users', headers=headers)\n>       Assertions.assert_key_name_is_in_response(response, key_name)\n\ntests/create_users_test.py:31: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresponse = <Response [201]>, key_name = 'job'\n\n    @staticmethod\n    def assert_key_name_is_in_response(response: Response, key_name):\n        \"\"\"Check if the required key is in the response\"\"\"\n        json_value = response.json()\n        actual_key = json_value.get(key_name)\n        with allure.step(f'The key {actual_key} exist'):\n>           assert actual_key is not None, f'The key {actual_key} does not exist'\nE           AssertionError: The key None does not exist\n\nbase/assertions.py:36: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1708388620677,
+      "stop" : 1708388620692,
+      "duration" : 15
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "XFAIL Bag\n\nAssertionError: The key None does not exist",
+    "statusTrace" : "self = <tests.create_users_test.TestCreateUser object at 0x7ff94285e850>\nkey_name = 'job'\n\n    @pytest.mark.parametrize('key_name', data.LIST_KEY)\n    @allure.title('Check response has key job')\n    def test_post_create_user_key_name_is_in_response(self, key_name):\n        headers = self.data.CREATE_USER\n        response = BaseRequests.post(url='api/users', headers=headers)\n>       Assertions.assert_key_name_is_in_response(response, key_name)\n\ntests/create_users_test.py:31: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresponse = <Response [201]>, key_name = 'job'\n\n    @staticmethod\n    def assert_key_name_is_in_response(response: Response, key_name):\n        \"\"\"Check if the required key is in the response\"\"\"\n        json_value = response.json()\n        actual_key = json_value.get(key_name)\n        with allure.step(f'The key {actual_key} exist'):\n>           assert actual_key is not None, f'The key {actual_key} does not exist'\nE           AssertionError: The key None does not exist\n\nbase/assertions.py:36: AssertionError",
+    "steps" : [ {
+      "name" : "The key None exist",
+      "time" : {
+        "start" : 1708388622167,
+        "stop" : 1708388622167,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: The key None does not exist\n",
+      "statusTrace" : "  File \"/home/runner/work/reqres/reqres/base/assertions.py\", line 36, in assert_key_name_is_in_response\n    assert actual_key is not None, f'The key {actual_key} does not exist'\n           ^^^^^^^^^^^^^^^^^^^^^^\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Create User"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail(reason='Bag')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "create_users_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreateUser"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1024-431"
+  }, {
+    "name" : "thread",
+    "value" : "2231-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.create_users_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "key_name",
+    "value" : "'job'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a8cfd4092e2f85d8",
+        "reportUrl" : "https://Nat754.github.io/reqres/4//#testresult/a8cfd4092e2f85d8",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL Bag\n\nAssertionError: The key None does not exist",
+        "time" : {
+          "start" : 1708385916653,
+          "stop" : 1708385916997,
+          "duration" : 344
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.xfail(reason='Bag')" ]
+  },
+  "source" : "d0baac8669a3bd27.json",
+  "parameterValues" : [ "'job'" ]
+}
