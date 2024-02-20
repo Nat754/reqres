@@ -1,0 +1,185 @@
+{
+  "uid" : "417a24574f70cfac",
+  "name" : "1.5 POST Create user response is not empty",
+  "fullName" : "tests.create_users_test.TestCreateUser#test_post_create_user_response_is_not_empty",
+  "historyId" : "f7ebb35e125922df6319c7804397d91b",
+  "time" : {
+    "start" : 1708432775209,
+    "stop" : 1708432775593,
+    "duration" : 384
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1708432771755,
+      "stop" : 1708432771770,
+      "duration" : 15
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Response has JSON format and is not empty",
+      "time" : {
+        "start" : 1708432775592,
+        "stop" : 1708432775592,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Create User"
+  }, {
+    "name" : "tag",
+    "value" : "positive"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "create_users_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreateUser"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1456-744"
+  }, {
+    "name" : "thread",
+    "value" : "2435-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.create_users_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "9474d1688df7ffbd",
+        "reportUrl" : "https://Nat754.github.io/reqres/12//#testresult/9474d1688df7ffbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708427533529,
+          "stop" : 1708427533782,
+          "duration" : 253
+        }
+      }, {
+        "uid" : "7c5004690969ca06",
+        "reportUrl" : "https://Nat754.github.io/reqres/11//#testresult/7c5004690969ca06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708425059463,
+          "stop" : 1708425059703,
+          "duration" : 240
+        }
+      }, {
+        "uid" : "1ae22df84b808e67",
+        "reportUrl" : "https://Nat754.github.io/reqres/10//#testresult/1ae22df84b808e67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708420917253,
+          "stop" : 1708420917488,
+          "duration" : 235
+        }
+      }, {
+        "uid" : "5da2875264764c7f",
+        "reportUrl" : "https://Nat754.github.io/reqres/9//#testresult/5da2875264764c7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708420826334,
+          "stop" : 1708420826605,
+          "duration" : 271
+        }
+      }, {
+        "uid" : "17a7b9fbe1119ad0",
+        "reportUrl" : "https://Nat754.github.io/reqres/8//#testresult/17a7b9fbe1119ad0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708420746496,
+          "stop" : 1708420746748,
+          "duration" : 252
+        }
+      }, {
+        "uid" : "9efed94317b79046",
+        "reportUrl" : "https://Nat754.github.io/reqres/7//#testresult/9efed94317b79046",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708418351870,
+          "stop" : 1708418352256,
+          "duration" : 386
+        }
+      }, {
+        "uid" : "2d6c821144edc067",
+        "reportUrl" : "https://Nat754.github.io/reqres/6//#testresult/2d6c821144edc067",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708412187053,
+          "stop" : 1708412187296,
+          "duration" : 243
+        }
+      }, {
+        "uid" : "6a316c66a1626055",
+        "reportUrl" : "https://Nat754.github.io/reqres/5//#testresult/6a316c66a1626055",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708388624311,
+          "stop" : 1708388624548,
+          "duration" : 237
+        }
+      } ]
+    },
+    "tags" : [ "positive" ]
+  },
+  "source" : "417a24574f70cfac.json",
+  "parameterValues" : [ ]
+}
