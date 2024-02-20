@@ -1,0 +1,600 @@
+***
+
+20.02.2024 04:22:02
+Test name: create_users_test.py::TestCreateUser::test_post_create_user (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Robert Lopez', 'job': 'Theme park manager'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '513', 'createdAt': '2024-02-20T00:22:03.792Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 00:22:03 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708388523&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=85TOFLgKbHMoYTuKjzxZ7CDsbfmBPJUrWRW7jJzhWdE%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708388523&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=85TOFLgKbHMoYTuKjzxZ7CDsbfmBPJUrWRW7jJzhWdE%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-AW9y5TZYT8kpwlM/BR3AiJVnZB0"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '858297d10b8313b4-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 04:22:03
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_response_is_json (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Robert Lopez', 'job': 'Theme park manager'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '296', 'createdAt': '2024-02-20T00:22:04.112Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 00:22:04 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708388524&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=jP1Al3m9MpytNlJlPeN8j2wq3JWfiizpKZpuyOGvpXQ%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708388524&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=jP1Al3m9MpytNlJlPeN8j2wq3JWfiizpKZpuyOGvpXQ%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-G+rNbG8UgUpBpbeNJEYV7PIQyQc"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '858297d2f83d9db0-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 04:22:03
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_key_name_is_in_response[id] (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Robert Lopez', 'job': 'Theme park manager'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '465', 'createdAt': '2024-02-20T00:22:04.477Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 00:22:04 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708388524&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=jP1Al3m9MpytNlJlPeN8j2wq3JWfiizpKZpuyOGvpXQ%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708388524&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=jP1Al3m9MpytNlJlPeN8j2wq3JWfiizpKZpuyOGvpXQ%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-FB6SVdXW8zo/M85l4TC6L2HywsY"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '858297d51b3c1616-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 04:22:03
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_key_name_is_in_response[createdAt] (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Robert Lopez', 'job': 'Theme park manager'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '158', 'createdAt': '2024-02-20T00:22:04.830Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 00:22:04 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708388524&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=jP1Al3m9MpytNlJlPeN8j2wq3JWfiizpKZpuyOGvpXQ%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708388524&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=jP1Al3m9MpytNlJlPeN8j2wq3JWfiizpKZpuyOGvpXQ%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-en3JusG9xkNq6p8DPC60RqkOkVY"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '858297d78fae00a5-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 04:22:04
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_key_name_is_in_response[name] (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Robert Lopez', 'job': 'Theme park manager'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '11', 'createdAt': '2024-02-20T00:22:05.132Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 00:22:05 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '50', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708388525&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=aazEWziPTqKJT0ucceBmo5FumzRWyBiRVSGrUbbTQaM%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708388525&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=aazEWziPTqKJT0ucceBmo5FumzRWyBiRVSGrUbbTQaM%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"32-i9/EYfuK5Ed/gq9J8e36oaKgXoQ"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '858297d96e8a9db1-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 04:22:04
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_key_name_is_in_response[job] (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Robert Lopez', 'job': 'Theme park manager'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '676', 'createdAt': '2024-02-20T00:22:05.567Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 00:22:05 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708388525&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=aazEWziPTqKJT0ucceBmo5FumzRWyBiRVSGrUbbTQaM%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708388525&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=aazEWziPTqKJT0ucceBmo5FumzRWyBiRVSGrUbbTQaM%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-azu8G6PgEeOhfEVAFSoPd1RVPks"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '858297dc1b273a5f-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 04:22:05
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_key_value_is_in_response[name] (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Robert Lopez', 'job': 'Theme park manager'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '29', 'createdAt': '2024-02-20T00:22:05.888Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 00:22:05 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '50', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708388525&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=aazEWziPTqKJT0ucceBmo5FumzRWyBiRVSGrUbbTQaM%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708388525&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=aazEWziPTqKJT0ucceBmo5FumzRWyBiRVSGrUbbTQaM%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"32-bLoO2es9vZrt0oe7p8zuHoJJwTw"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '858297de28101660-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 04:22:05
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_key_value_is_in_response[job] (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Robert Lopez', 'job': 'Theme park manager'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '878', 'createdAt': '2024-02-20T00:22:06.213Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 00:22:06 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708388526&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=3lv1Y5LxL5ZT%2Bj%2F1XX8REZD0GaFt%2BtXpqyfBlInjxJY%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708388526&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=3lv1Y5LxL5ZT%2Bj%2F1XX8REZD0GaFt%2BtXpqyfBlInjxJY%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-0xptODjtjTWGbzG/+dkjM4VDuCM"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '858297e03d619daa-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 04:22:05
+Test name: create_users_test.py::TestCreateUser::test_get_create_user (call)
+Request method: GET
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Robert Lopez', 'job': 'Theme park manager'}
+Request cookies: None
+
+Response code: 200
+Response json: {'page': 1, 'per_page': 6, 'total': 12, 'total_pages': 2, 'data': [{'id': 1, 'email': 'george.bluth@reqres.in', 'first_name': 'George', 'last_name': 'Bluth', 'avatar': 'https://reqres.in/img/faces/1-image.jpg'}, {'id': 2, 'email': 'janet.weaver@reqres.in', 'first_name': 'Janet', 'last_name': 'Weaver', 'avatar': 'https://reqres.in/img/faces/2-image.jpg'}, {'id': 3, 'email': 'emma.wong@reqres.in', 'first_name': 'Emma', 'last_name': 'Wong', 'avatar': 'https://reqres.in/img/faces/3-image.jpg'}, {'id': 4, 'email': 'eve.holt@reqres.in', 'first_name': 'Eve', 'last_name': 'Holt', 'avatar': 'https://reqres.in/img/faces/4-image.jpg'}, {'id': 5, 'email': 'charles.morris@reqres.in', 'first_name': 'Charles', 'last_name': 'Morris', 'avatar': 'https://reqres.in/img/faces/5-image.jpg'}, {'id': 6, 'email': 'tracey.ramos@reqres.in', 'first_name': 'Tracey', 'last_name': 'Ramos', 'avatar': 'https://reqres.in/img/faces/6-image.jpg'}], 'support': {'url': 'https://reqres.in/#support-heading', 'text': 'To keep ReqRes free, contributions towards server costs are appreciated!'}}
+Response headers: {'Date': 'Tue, 20 Feb 2024 00:22:06 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708346156&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=W3QpxZ6b%2Fsx%2BIYubxgy3ieg5nHdq2Zw3HBeNzwFdJrE%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708346156&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=W3QpxZ6b%2Fsx%2BIYubxgy3ieg5nHdq2Zw3HBeNzwFdJrE%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"', 'Via': '1.1 vegur', 'Cache-Control': 'max-age=14400', 'CF-Cache-Status': 'HIT', 'Age': '2414', 'Vary': 'Accept-Encoding', 'Server': 'cloudflare', 'CF-RAY': '858297e26ffc16f7-DME', 'Content-Encoding': 'gzip'}
+Response cookies: {}
+
+***
+
+20.02.2024 04:22:05
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_without_body (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: None
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '182', 'createdAt': '2024-02-20T00:22:06.756Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 00:22:06 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708388526&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=3lv1Y5LxL5ZT%2Bj%2F1XX8REZD0GaFt%2BtXpqyfBlInjxJY%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708388526&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=3lv1Y5LxL5ZT%2Bj%2F1XX8REZD0GaFt%2BtXpqyfBlInjxJY%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-nuZy+kLWesi01I4MljSuoZRqFjI"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '858297e39d530c36-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 04:22:06
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_without_job (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: {'name': 'Katelyn Cook'}
+Request headers: None
+Request cookies: None
+
+Response code: 201
+Response json: {'name': 'Katelyn Cook', 'id': '762', 'createdAt': '2024-02-20T00:22:07.083Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 00:22:07 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '73', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708388527&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=X0Rh73%2BchEtrqTPLsfMfOenovoGbxUQl0rs7Zt5uMPU%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708388527&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=X0Rh73%2BchEtrqTPLsfMfOenovoGbxUQl0rs7Zt5uMPU%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"49-gxdv6AvM10Fx4ZGK/GkUNsGR/ww"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '858297e5aa1a2de7-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 04:22:06
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_without_name (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'job': 'Warehouse manager'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '419', 'createdAt': '2024-02-20T00:22:07.389Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 00:22:07 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708388527&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=X0Rh73%2BchEtrqTPLsfMfOenovoGbxUQl0rs7Zt5uMPU%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708388527&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=X0Rh73%2BchEtrqTPLsfMfOenovoGbxUQl0rs7Zt5uMPU%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-bwsHbpllX7pEEXRQROger0qxCNQ"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '858297e78c717b73-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 04:22:06
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_with_none_job (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Sean Friedman', 'job': None}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '227', 'createdAt': '2024-02-20T00:22:07.681Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 00:22:07 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708388527&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=X0Rh73%2BchEtrqTPLsfMfOenovoGbxUQl0rs7Zt5uMPU%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708388527&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=X0Rh73%2BchEtrqTPLsfMfOenovoGbxUQl0rs7Zt5uMPU%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-PXEQ+RPt4+/OVvF5hc2LLOOMoi4"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '858297e96c920061-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 04:22:07
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_with_none_name (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Robert Lopez', 'job': 'Theme park manager'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '468', 'createdAt': '2024-02-20T00:22:08.023Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 00:22:08 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708388528&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=mmtCZNlLtMQC3iDWgjNqr2cRj6Q1swhRRdoqFUAYwUE%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708388528&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=mmtCZNlLtMQC3iDWgjNqr2cRj6Q1swhRRdoqFUAYwUE%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-9mS1nxR1DuEjPgjzZG5sDG8H+h8"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '858297eb787a9d52-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 04:22:07
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_as_none (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '454', 'createdAt': '2024-02-20T00:22:08.370Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 00:22:08 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708388528&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=mmtCZNlLtMQC3iDWgjNqr2cRj6Q1swhRRdoqFUAYwUE%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708388528&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=mmtCZNlLtMQC3iDWgjNqr2cRj6Q1swhRRdoqFUAYwUE%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-dI60p949eUEBtWLQ1Hog1G4JeLI"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '858297edbf0c005d-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 04:22:08
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_response_is_not_empty (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Robert Lopez', 'job': 'Theme park manager'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '114', 'createdAt': '2024-02-20T00:22:08.998Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 00:22:09 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708388528&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=mmtCZNlLtMQC3iDWgjNqr2cRj6Q1swhRRdoqFUAYwUE%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708388528&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=mmtCZNlLtMQC3iDWgjNqr2cRj6Q1swhRRdoqFUAYwUE%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-M7JgBeZ3qpJaxJHZagclwXwX/QU"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '858297f1980e3a9b-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:46:52
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_key_name_is_in_response[id] (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Jake Walsh', 'job': 'Special effects artist'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '457', 'createdAt': '2024-02-20T06:46:54.510Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:46:54 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708411614&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=0C2kO3heweCDmr0z1Y1PG9Tj6FQzzU76%2BvFUM5%2FN3Kc%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708411614&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=0C2kO3heweCDmr0z1Y1PG9Tj6FQzzU76%2BvFUM5%2FN3Kc%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-dJSKE6VtQz3c3+dvcgz1+TSzQv8"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8584cb8e0ad57b3f-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:46:52
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_key_name_is_in_response[createdAt] (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Jake Walsh', 'job': 'Special effects artist'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '322', 'createdAt': '2024-02-20T06:46:54.862Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:46:54 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708411614&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=0C2kO3heweCDmr0z1Y1PG9Tj6FQzzU76%2BvFUM5%2FN3Kc%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708411614&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=0C2kO3heweCDmr0z1Y1PG9Tj6FQzzU76%2BvFUM5%2FN3Kc%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-J56O/cUMJque7D1yxRDtvASTVNU"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8584cb903ccb7b2b-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:46:52
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_key_name_is_in_response[name] (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Jake Walsh', 'job': 'Special effects artist'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '945', 'createdAt': '2024-02-20T06:46:55.196Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:46:55 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708411615&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=pp4oJJgsNS0gc%2FmYo%2F1AgXo1APhfchDiH2rYtFEst6M%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708411615&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=pp4oJJgsNS0gc%2FmYo%2F1AgXo1APhfchDiH2rYtFEst6M%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-Od3Qf2SAhU7mIb8Xyj1EYJ0a37g"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8584cb92495a497d-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:46:53
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_key_name_is_in_response[job] (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Jake Walsh', 'job': 'Special effects artist'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '812', 'createdAt': '2024-02-20T06:46:55.656Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:46:55 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708411615&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=pp4oJJgsNS0gc%2FmYo%2F1AgXo1APhfchDiH2rYtFEst6M%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708411615&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=pp4oJJgsNS0gc%2FmYo%2F1AgXo1APhfchDiH2rYtFEst6M%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-ypKXydoR3DjpuKBG6RoUJ6I1YN4"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8584cb952ca816fe-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:47:18
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_key_value_is_in_response[name] (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Richard Moreno', 'job': 'Artist'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '388', 'createdAt': '2024-02-20T06:47:20.545Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:47:20 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708411640&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=OMgA4IMeNCDITJpbntbmbifuXPZ9hP9baknthsYhiJc%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708411640&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=OMgA4IMeNCDITJpbntbmbifuXPZ9hP9baknthsYhiJc%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-4Sge6Y3hq3fze7TbQNMPcrMznbE"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8584cc30a8637b5f-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:47:18
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_key_value_is_in_response[job] (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Richard Moreno', 'job': 'Artist'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '702', 'createdAt': '2024-02-20T06:47:21.008Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:47:21 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708411640&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=OMgA4IMeNCDITJpbntbmbifuXPZ9hP9baknthsYhiJc%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708411640&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=OMgA4IMeNCDITJpbntbmbifuXPZ9hP9baknthsYhiJc%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-CRW4nXE/4hs8lCRVkO/Z3VefM8c"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8584cc339e6e16bf-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:50:57
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_key_value_is_in_response[name] (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Michael Stevens', 'job': 'Set designer'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '166', 'createdAt': '2024-02-20T06:51:00.180Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:51:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708411860&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=lF%2BO4ZVsNrd7j6y0nmRBtiRYwuHBH%2BEtZX6tVpGPYck%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708411860&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=lF%2BO4ZVsNrd7j6y0nmRBtiRYwuHBH%2BEtZX6tVpGPYck%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-+iiWyD9eetkWeobR04P3ItpaA0Y"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8584d18d1c53169f-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:50:58
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_key_value_is_in_response[job] (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Michael Stevens', 'job': 'Set designer'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '930', 'createdAt': '2024-02-20T06:51:00.671Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:51:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708411860&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=lF%2BO4ZVsNrd7j6y0nmRBtiRYwuHBH%2BEtZX6tVpGPYck%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708411860&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=lF%2BO4ZVsNrd7j6y0nmRBtiRYwuHBH%2BEtZX6tVpGPYck%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-PA66z/krf/ie1A0HfvRJ8zR/GyU"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8584d1906d3d163d-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:53:02
+Test name: create_users_test.py::TestCreateUser::test_post_create_user (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Juan Christensen', 'job': 'Curator'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '964', 'createdAt': '2024-02-20T06:53:05.228Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:53:05 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708411985&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=HvpCZUPQ4G5VQMTy%2B23X885X0fSPuEpP6Xr0A9mx21M%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708411985&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=HvpCZUPQ4G5VQMTy%2B23X885X0fSPuEpP6Xr0A9mx21M%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-H5TLj4EwPqNWJIu7JjV0HR2OoCY"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8584d49b0c073a8f-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:53:03
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_response_is_json (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Juan Christensen', 'job': 'Curator'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '629', 'createdAt': '2024-02-20T06:53:05.615Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:53:05 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708411985&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=HvpCZUPQ4G5VQMTy%2B23X885X0fSPuEpP6Xr0A9mx21M%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708411985&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=HvpCZUPQ4G5VQMTy%2B23X885X0fSPuEpP6Xr0A9mx21M%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-RnWlJC3mAgb7ec/2u6ebLc+Qqxc"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8584d49d7e7a3aa1-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:53:03
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_key_name_is_in_response[id] (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Juan Christensen', 'job': 'Curator'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '854', 'createdAt': '2024-02-20T06:53:05.929Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:53:05 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708411985&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=HvpCZUPQ4G5VQMTy%2B23X885X0fSPuEpP6Xr0A9mx21M%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708411985&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=HvpCZUPQ4G5VQMTy%2B23X885X0fSPuEpP6Xr0A9mx21M%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-qdHZtIon+LMcLsW6bUCxdn0DTCM"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8584d49f6d943a8f-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:53:03
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_key_name_is_in_response[createdAt] (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Juan Christensen', 'job': 'Curator'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '115', 'createdAt': '2024-02-20T06:53:06.236Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:53:06 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708411986&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=hPk%2BLpQOrxWTtSXEaAaMsohr7s1mUprjvT06BGea9hE%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708411986&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=hPk%2BLpQOrxWTtSXEaAaMsohr7s1mUprjvT06BGea9hE%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-Xn6TSVc4Qq3R0hOaaqNMlaoh/fs"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8584d4a15b457b2f-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:53:04
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_key_name_is_in_response[name] (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Juan Christensen', 'job': 'Curator'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '986', 'createdAt': '2024-02-20T06:53:06.537Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:53:06 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708411986&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=hPk%2BLpQOrxWTtSXEaAaMsohr7s1mUprjvT06BGea9hE%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708411986&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=hPk%2BLpQOrxWTtSXEaAaMsohr7s1mUprjvT06BGea9hE%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-kWy+4p/qWXmVk7rgSEAA+bqezGo"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8584d4a32a557b4b-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:53:04
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_key_name_is_in_response[job] (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Juan Christensen', 'job': 'Curator'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '673', 'createdAt': '2024-02-20T06:53:07.048Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:53:07 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708411987&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=R%2FjU1WspD6XBnIYN0IGUJZGq%2FI5V35l%2FJfVhPHqkFrw%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708411987&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=R%2FjU1WspD6XBnIYN0IGUJZGq%2FI5V35l%2FJfVhPHqkFrw%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-K4tFbGChfmsf5TDnqKJwanQqElU"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8584d4a60e847b23-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:53:05
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_key_value_is_in_response[name] (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Juan Christensen', 'job': 'Curator'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '918', 'createdAt': '2024-02-20T06:53:07.367Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:53:07 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708411987&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=R%2FjU1WspD6XBnIYN0IGUJZGq%2FI5V35l%2FJfVhPHqkFrw%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708411987&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=R%2FjU1WspD6XBnIYN0IGUJZGq%2FI5V35l%2FJfVhPHqkFrw%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-dIXMbZI0WO2za+Cz1N5lTjBNyQI"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8584d4a8593c1693-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:53:05
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_key_value_is_in_response[job] (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Juan Christensen', 'job': 'Curator'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '799', 'createdAt': '2024-02-20T06:53:07.670Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:53:07 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708411987&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=R%2FjU1WspD6XBnIYN0IGUJZGq%2FI5V35l%2FJfVhPHqkFrw%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708411987&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=R%2FjU1WspD6XBnIYN0IGUJZGq%2FI5V35l%2FJfVhPHqkFrw%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-6MmLOAWN6pX8piE7IcQEXnh6SZ0"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8584d4aa4ac99d3a-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:53:05
+Test name: create_users_test.py::TestCreateUser::test_get_create_user (call)
+Request method: GET
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Juan Christensen', 'job': 'Curator'}
+Request cookies: None
+
+Response code: 200
+Response json: {'page': 1, 'per_page': 6, 'total': 12, 'total_pages': 2, 'data': [{'id': 1, 'email': 'george.bluth@reqres.in', 'first_name': 'George', 'last_name': 'Bluth', 'avatar': 'https://reqres.in/img/faces/1-image.jpg'}, {'id': 2, 'email': 'janet.weaver@reqres.in', 'first_name': 'Janet', 'last_name': 'Weaver', 'avatar': 'https://reqres.in/img/faces/2-image.jpg'}, {'id': 3, 'email': 'emma.wong@reqres.in', 'first_name': 'Emma', 'last_name': 'Wong', 'avatar': 'https://reqres.in/img/faces/3-image.jpg'}, {'id': 4, 'email': 'eve.holt@reqres.in', 'first_name': 'Eve', 'last_name': 'Holt', 'avatar': 'https://reqres.in/img/faces/4-image.jpg'}, {'id': 5, 'email': 'charles.morris@reqres.in', 'first_name': 'Charles', 'last_name': 'Morris', 'avatar': 'https://reqres.in/img/faces/5-image.jpg'}, {'id': 6, 'email': 'tracey.ramos@reqres.in', 'first_name': 'Tracey', 'last_name': 'Ramos', 'avatar': 'https://reqres.in/img/faces/6-image.jpg'}], 'support': {'url': 'https://reqres.in/#support-heading', 'text': 'To keep ReqRes free, contributions towards server costs are appreciated!'}}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:53:07 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708346156&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=W3QpxZ6b%2Fsx%2BIYubxgy3ieg5nHdq2Zw3HBeNzwFdJrE%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708346156&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=W3QpxZ6b%2Fsx%2BIYubxgy3ieg5nHdq2Zw3HBeNzwFdJrE%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"', 'Via': '1.1 vegur', 'Cache-Control': 'max-age=14400', 'CF-Cache-Status': 'HIT', 'Age': '5121', 'Vary': 'Accept-Encoding', 'Server': 'cloudflare', 'CF-RAY': '8584d4ac5c919db4-DME', 'Content-Encoding': 'gzip'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:53:05
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_without_body (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: None
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '682', 'createdAt': '2024-02-20T06:53:08.195Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:53:08 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708411988&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=efhhbVv4bgjRJlBqQOLUL2uiKZICdALR7aIPYZbRtuc%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708411988&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=efhhbVv4bgjRJlBqQOLUL2uiKZICdALR7aIPYZbRtuc%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-oIftBFA1rhS+SuRl/NLMdbwPrFc"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8584d4ad8f5a9d6a-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:53:06
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_without_job (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: {'name': 'Katherine Wallace'}
+Request headers: None
+Request cookies: None
+
+Response code: 201
+Response json: {'name': 'Katherine Wallace', 'id': '469', 'createdAt': '2024-02-20T06:53:08.669Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:53:08 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '78', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708411988&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=efhhbVv4bgjRJlBqQOLUL2uiKZICdALR7aIPYZbRtuc%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708411988&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=efhhbVv4bgjRJlBqQOLUL2uiKZICdALR7aIPYZbRtuc%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"4e-eeXhUY7jy/ewuayJpFt88lR0ywY"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8584d4b07bb87b57-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:53:06
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_without_name (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'job': 'Mechanical engineer'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '566', 'createdAt': '2024-02-20T06:53:09.019Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:53:09 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708411989&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=TtBlRRujkG76BpbHfedGsgESxgA56vU2BTS5cQCGQV0%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708411989&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=TtBlRRujkG76BpbHfedGsgESxgA56vU2BTS5cQCGQV0%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-dHaVYoIkz3TFPscIxBe9Tac9ueU"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8584d4b2ba149d99-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:53:07
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_with_none_job (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Wayne White', 'job': None}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '333', 'createdAt': '2024-02-20T06:53:09.328Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:53:09 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708411989&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=TtBlRRujkG76BpbHfedGsgESxgA56vU2BTS5cQCGQV0%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708411989&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=TtBlRRujkG76BpbHfedGsgESxgA56vU2BTS5cQCGQV0%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-HTuUZWd+wLDSJbRn4gdddeC31zE"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8584d4b4a97f9d9c-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:53:07
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_with_none_name (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Juan Christensen', 'job': 'Curator'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '142', 'createdAt': '2024-02-20T06:53:09.653Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:53:09 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708411989&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=TtBlRRujkG76BpbHfedGsgESxgA56vU2BTS5cQCGQV0%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708411989&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=TtBlRRujkG76BpbHfedGsgESxgA56vU2BTS5cQCGQV0%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-RxK8pq+1fkJCUTNBg/L6UrPaurQ"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8584d4b69c591683-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:53:07
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_as_none (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '816', 'createdAt': '2024-02-20T06:53:09.965Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:53:10 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708411989&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=TtBlRRujkG76BpbHfedGsgESxgA56vU2BTS5cQCGQV0%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708411989&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=TtBlRRujkG76BpbHfedGsgESxgA56vU2BTS5cQCGQV0%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-H2B/m7/crHQP0Sae4eb7Hd4Ju8A"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8584d4b888583aad-DME'}
+Response cookies: {}
+
+***
+
+20.02.2024 10:53:08
+Test name: create_users_test.py::TestCreateUser::test_post_create_user_response_is_not_empty (call)
+Request method: POST
+Request URL: https://reqres.in/api/users
+Request data: None
+Request headers: {'name': 'Juan Christensen', 'job': 'Curator'}
+Request cookies: None
+
+Response code: 201
+Response json: {'id': '470', 'createdAt': '2024-02-20T06:53:10.619Z'}
+Response headers: {'Date': 'Tue, 20 Feb 2024 06:53:10 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '51', 'Connection': 'keep-alive', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1708411990&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=UdMykvZsZc%2BrPb3mkNLHjy6DrcEZcqVIf6SoPkIUHcc%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1708411990&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=UdMykvZsZc%2BrPb3mkNLHjy6DrcEZcqVIf6SoPkIUHcc%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"33-7PHlM8DjL3SwXsk0xqDEtnyFrHk"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '8584d4bc5ad11660-DME'}
+Response cookies: {}
+

@@ -24,19 +24,19 @@ class TestCreateUser:
         Assertions.assert_response_is_json(response)
 
     @pytest.mark.parametrize('key_name', data.LIST_KEY)
-    @allure.title('Check response has key job')
     def test_post_create_user_key_name_is_in_response(self, key_name):
+        allure.dynamic.title(f'Check response has key {key_name}')
         headers = self.data.CREATE_USER
         response = BaseRequests.post(url='api/users', headers=headers)
         Assertions.assert_key_name_is_in_response(response, key_name)
 
     @pytest.mark.xfail(reason='Bag')
-    @pytest.mark.parametrize('key_name', data.CREATE_USER)
-    @allure.title('Check response has key job')
-    def test_post_create_user_key_value_is_in_response(self, key_name):
+    @pytest.mark.parametrize('key_value', data.CREATE_USER)
+    def test_post_create_user_key_value_is_in_response(self, key_value):
+        allure.dynamic.title(f'Check response has key value {key_value}')
         headers = self.data.CREATE_USER
         response = BaseRequests.post(url='api/users', headers=headers)
-        Assertions.assert_key_value_is_in_response(response, headers, key_name)
+        Assertions.assert_key_value_is_in_response(response, headers, key_value)
 
     @allure.title('GET Send request get with body')
     def test_get_create_user(self):
