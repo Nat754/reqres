@@ -19,6 +19,6 @@ class Data:
     CREATE_USER = {"name": faker.name(), "job": faker.job()}
     NAME_USER = {"name": faker.name()}
     JOB_USER = {"job": faker.job()}
-    CREATE_USER_NAME_NONE ={"name": None, "job": faker.job()}
+    CREATE_USER_NAME_NONE = {"name": None, "job": faker.job()}
     CREATE_USER_JOB_NONE = {"name": faker.name(), "job": None}
     LIST_KEY = ['id', 'createdAt', 'name', 'job']
