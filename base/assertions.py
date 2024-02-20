@@ -43,3 +43,10 @@ class Assertions:
         expected_key = data[key_name]
         with allure.step(f'Actual key is {expected_key}'):
             assert actual_key == expected_key, f'Actual key {expected_key} is not in response'
+
+    @staticmethod
+    def assert_response_is_not_empty(response: Response):
+        """Check response has json format and is not empty"""
+        with allure.step('Response has JSON format and is not empty'):
+            assert 'application/json' in response.headers.get('Content-Type', '') and 'application/json' != {}, \
+                'Error: Response is not in JSON format'

@@ -1,5 +1,6 @@
 import allure
 import pytest
+import requests
 
 from base.assertions import Assertions
 from data.constant import StatusCode, Data, Constant
@@ -43,7 +44,7 @@ class TestCreateUser:
         Assertions.assert_code_status(response, self.status.STATUS_CODE_200)
 
     @pytest.mark.xfail(reason='Bag')
-    @allure.title('POST Создать пользователя без тела запроса')
+    @allure.title('POST Create user without request body')
     def test_post_create_user_without_body(self):
         response = BaseRequests.post(url='api/users')
         Assertions.assert_is_not_code_status(response, self.status.STATUS_CODE_201)
@@ -78,3 +79,14 @@ class TestCreateUser:
     def test_post_create_user_as_none(self):
         response = BaseRequests.post(url='api/users', headers={})
         Assertions.assert_is_not_code_status(response, self.status.STATUS_CODE_201)
+
+    @pytest.mark.xfail(reason='Bag')
+    @allure.title("POST Create user get to http")
+    def test_create_users_to_http(self):
+        response = requests.post(url=f'{self.constant.WRONG_URL}api/users', headers=self.data.CREATE_USER)
+        Assertions.assert_is_not_code_status(response, self.status.STATUS_CODE_200)
+
+    @allure.title('POST Create user response is not empty')
+    def test_post_create_user_response_is_not_empty(self):
+        response = BaseRequests.post(url='api/users', headers=self.data.CREATE_USER)
+        Assertions.assert_response_is_not_empty(response)
