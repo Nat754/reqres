@@ -37,7 +37,8 @@ class TestCreateUser:
     @pytest.mark.parametrize('key_value', data.CREATE_USER)
     @pytest.mark.xfail(reason='Bag')
     def test_post_create_user_key_value_is_in_response(self, key_value):
-        allure.dynamic.title(f'1.4.{self.data.CREATE_USER.index(key_value) + 1} Check response has key value {key_value}')
+        allure.dynamic.title(f'1.4.{self.data.CREATE_USER.index(key_value) + 1} '
+                             f'Check response has key value {key_value}')
         headers = self.data.CREATE_USER
         response = BaseRequests.post(url='api/users', headers=headers)
         Assertions.assert_key_value_is_in_response(response, headers, key_value)
