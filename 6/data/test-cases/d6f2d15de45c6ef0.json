@@ -1,0 +1,139 @@
+{
+  "uid" : "d6f2d15de45c6ef0",
+  "name" : "POST Create user with None name",
+  "fullName" : "tests.create_users_test.TestCreateUser#test_post_create_user_with_none_name",
+  "historyId" : "cbd2c4fa31e20d377255f92bbd065683",
+  "time" : {
+    "start" : 1708412186499,
+    "stop" : 1708412186740,
+    "duration" : 241
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL Bag\n\nAssertionError: Unexpected status code. Expected not 201. Actual: 201",
+  "statusTrace" : "self = <tests.create_users_test.TestCreateUser object at 0x7f66bf7d5bd0>\n\n    @pytest.mark.xfail(reason='Bag')\n    @allure.title('POST Create user with None name')\n    def test_post_create_user_with_none_name(self):\n        response = BaseRequests.post(url='api/users', headers=self.data.CREATE_USER)\n>       Assertions.assert_is_not_code_status(response, self.status.STATUS_CODE_201)\n\ntests/create_users_test.py:75: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresponse = <Response [201]>, expected_status_code = 201\n\n    @staticmethod\n    def assert_is_not_code_status(response: Response, expected_status_code):\n        \"\"\"Check status code is wrong\"\"\"\n        actual_status_code = response.status_code\n        with allure.step(f'Expected status is not equal {expected_status_code}'):\n>           assert actual_status_code != expected_status_code, \\\n                f'Unexpected status code. Expected not {expected_status_code}. Actual: {actual_status_code}'\nE           AssertionError: Unexpected status code. Expected not 201. Actual: 201\n\nbase/assertions.py:27: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1708412183451,
+      "stop" : 1708412183467,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "XFAIL Bag\n\nAssertionError: Unexpected status code. Expected not 201. Actual: 201",
+    "statusTrace" : "self = <tests.create_users_test.TestCreateUser object at 0x7f66bf7d5bd0>\n\n    @pytest.mark.xfail(reason='Bag')\n    @allure.title('POST Create user with None name')\n    def test_post_create_user_with_none_name(self):\n        response = BaseRequests.post(url='api/users', headers=self.data.CREATE_USER)\n>       Assertions.assert_is_not_code_status(response, self.status.STATUS_CODE_201)\n\ntests/create_users_test.py:75: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresponse = <Response [201]>, expected_status_code = 201\n\n    @staticmethod\n    def assert_is_not_code_status(response: Response, expected_status_code):\n        \"\"\"Check status code is wrong\"\"\"\n        actual_status_code = response.status_code\n        with allure.step(f'Expected status is not equal {expected_status_code}'):\n>           assert actual_status_code != expected_status_code, \\\n                f'Unexpected status code. Expected not {expected_status_code}. Actual: {actual_status_code}'\nE           AssertionError: Unexpected status code. Expected not 201. Actual: 201\n\nbase/assertions.py:27: AssertionError",
+    "steps" : [ {
+      "name" : "Expected status is not equal 201",
+      "time" : {
+        "start" : 1708412186740,
+        "stop" : 1708412186740,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Unexpected status code. Expected not 201. Actual: 201\n",
+      "statusTrace" : "  File \"/home/runner/work/reqres/reqres/base/assertions.py\", line 27, in assert_is_not_code_status\n    assert actual_status_code != expected_status_code, \\\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Create User"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail(reason='Bag')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "create_users_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreateUser"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1116-403"
+  }, {
+    "name" : "thread",
+    "value" : "2211-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.create_users_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "101f6cd2dc99a580",
+        "reportUrl" : "https://Nat754.github.io/reqres/5//#testresult/101f6cd2dc99a580",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL Bag\n\nAssertionError: Unexpected status code. Expected not 201. Actual: 201",
+        "time" : {
+          "start" : 1708388623747,
+          "stop" : 1708388623997,
+          "duration" : 250
+        }
+      }, {
+        "uid" : "a630d867275160f",
+        "reportUrl" : "https://Nat754.github.io/reqres/4//#testresult/a630d867275160f",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL Bag\n\nAssertionError: Unexpected status code. Expected not 201. Actual: 201",
+        "time" : {
+          "start" : 1708385919291,
+          "stop" : 1708385919645,
+          "duration" : 354
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.xfail(reason='Bag')" ]
+  },
+  "source" : "d6f2d15de45c6ef0.json",
+  "parameterValues" : [ ]
+}
