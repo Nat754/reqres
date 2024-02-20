@@ -1,0 +1,198 @@
+{
+  "uid" : "9b9c162769cc1227",
+  "name" : "1.3.1 Check response has key id",
+  "fullName" : "tests.create_users_test.TestCreateUser#test_post_create_user_key_name_is_in_response",
+  "historyId" : "09f2c75f679b1c942737ae11b86e30dd",
+  "time" : {
+    "start" : 1708427531968,
+    "stop" : 1708427532220,
+    "duration" : 252
+  },
+  "status" : "passed",
+  "statusMessage" : "XPASS Bag",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1708427531431,
+      "stop" : 1708427531446,
+      "duration" : 15
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusMessage" : "XPASS Bag",
+    "steps" : [ {
+      "name" : "The key 337 exist",
+      "time" : {
+        "start" : 1708427532219,
+        "stop" : 1708427532219,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Create User"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail(reason='Bag')"
+  }, {
+    "name" : "tag",
+    "value" : "positive"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "create_users_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreateUser"
+  }, {
+    "name" : "host",
+    "value" : "fv-az775-764"
+  }, {
+    "name" : "thread",
+    "value" : "2209-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.create_users_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "key_name",
+    "value" : "'id'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "9f4fb5f18c649639",
+        "reportUrl" : "https://Nat754.github.io/reqres/11//#testresult/9f4fb5f18c649639",
+        "status" : "passed",
+        "statusDetails" : "XPASS Bag",
+        "time" : {
+          "start" : 1708425058405,
+          "stop" : 1708425058661,
+          "duration" : 256
+        }
+      }, {
+        "uid" : "33f5bc70293c6c5f",
+        "reportUrl" : "https://Nat754.github.io/reqres/10//#testresult/33f5bc70293c6c5f",
+        "status" : "passed",
+        "statusDetails" : "XPASS Bag",
+        "time" : {
+          "start" : 1708420916209,
+          "stop" : 1708420916463,
+          "duration" : 254
+        }
+      }, {
+        "uid" : "30b1a958472ef084",
+        "reportUrl" : "https://Nat754.github.io/reqres/9//#testresult/30b1a958472ef084",
+        "status" : "passed",
+        "statusDetails" : "XPASS Bag",
+        "time" : {
+          "start" : 1708420824247,
+          "stop" : 1708420824505,
+          "duration" : 258
+        }
+      }, {
+        "uid" : "84ae52295c6cc44a",
+        "reportUrl" : "https://Nat754.github.io/reqres/8//#testresult/84ae52295c6cc44a",
+        "status" : "passed",
+        "statusDetails" : "XPASS Bag",
+        "time" : {
+          "start" : 1708420745494,
+          "stop" : 1708420745715,
+          "duration" : 221
+        }
+      }, {
+        "uid" : "524216def6b922aa",
+        "reportUrl" : "https://Nat754.github.io/reqres/7//#testresult/524216def6b922aa",
+        "status" : "passed",
+        "statusDetails" : "XPASS Bag",
+        "time" : {
+          "start" : 1708418350353,
+          "stop" : 1708418350715,
+          "duration" : 362
+        }
+      }, {
+        "uid" : "54b57acdb2121acf",
+        "reportUrl" : "https://Nat754.github.io/reqres/6//#testresult/54b57acdb2121acf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708412183968,
+          "stop" : 1708412184198,
+          "duration" : 230
+        }
+      }, {
+        "uid" : "f82020367686c44b",
+        "reportUrl" : "https://Nat754.github.io/reqres/5//#testresult/f82020367686c44b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708388621194,
+          "stop" : 1708388621425,
+          "duration" : 231
+        }
+      }, {
+        "uid" : "1436dfc6ca706db",
+        "reportUrl" : "https://Nat754.github.io/reqres/4//#testresult/1436dfc6ca706db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708385915550,
+          "stop" : 1708385915899,
+          "duration" : 349
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.xfail(reason='Bag')", "positive" ]
+  },
+  "source" : "9b9c162769cc1227.json",
+  "parameterValues" : [ "'id'" ]
+}
