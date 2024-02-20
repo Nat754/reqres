@@ -1,0 +1,171 @@
+[ {
+  "uid" : "f5dd89eab76aa6cb",
+  "name" : "1.1 POST Create user",
+  "time" : {
+    "start" : 1708425057882,
+    "stop" : 1708425058148,
+    "duration" : 266
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f25077e3f402e98",
+  "name" : "2.8 POST Create user get to http",
+  "time" : {
+    "start" : 1708425061323,
+    "stop" : 1708425061613,
+    "duration" : 290
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a5fd8a21921b0f79",
+  "name" : "2.7 POST Create user as {0}",
+  "time" : {
+    "start" : 1708425061062,
+    "stop" : 1708425061313,
+    "duration" : 251
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "dac12edbddb90302",
+  "name" : "test_post_create_user_key_value_is_in_response[name]",
+  "time" : {
+    "start" : 1708425059453,
+    "stop" : 1708425059453,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "18bb5777338a171a",
+  "name" : "2.5 POST Create user with None job",
+  "time" : {
+    "start" : 1708425060543,
+    "stop" : 1708425060804,
+    "duration" : 261
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2dc9d02e052e2b5b",
+  "name" : "1.3.3 Check response has key name",
+  "time" : {
+    "start" : 1708425058919,
+    "stop" : 1708425059170,
+    "duration" : 251
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "9f4fb5f18c649639",
+  "name" : "1.3.1 Check response has key id",
+  "time" : {
+    "start" : 1708425058405,
+    "stop" : 1708425058661,
+    "duration" : 256
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c0097e388b28e97",
+  "name" : "1.2 Check format is json",
+  "time" : {
+    "start" : 1708425058150,
+    "stop" : 1708425058403,
+    "duration" : 253
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f617904263070dec",
+  "name" : "2.3 POST Create user without job",
+  "time" : {
+    "start" : 1708425060027,
+    "stop" : 1708425060279,
+    "duration" : 252
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "aac24fc02aa0615",
+  "name" : "1.3.2 Check response has key createdAt",
+  "time" : {
+    "start" : 1708425058663,
+    "stop" : 1708425058917,
+    "duration" : 254
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2cd7c908862f735",
+  "name" : "2.1 GET Send request get with body",
+  "time" : {
+    "start" : 1708425059705,
+    "stop" : 1708425059768,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c5004690969ca06",
+  "name" : "1.5 POST Create user response is not empty",
+  "time" : {
+    "start" : 1708425059463,
+    "stop" : 1708425059703,
+    "duration" : 240
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1622cf53da66d103",
+  "name" : "2.4 POST Create user without name",
+  "time" : {
+    "start" : 1708425060284,
+    "stop" : 1708425060538,
+    "duration" : 254
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b3cdf3002ea2354e",
+  "name" : "2.2 POST Create user without request body",
+  "time" : {
+    "start" : 1708425059769,
+    "stop" : 1708425060022,
+    "duration" : 253
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "d2de169f007b301f",
+  "name" : "2.6 POST Create user with None name",
+  "time" : {
+    "start" : 1708425060809,
+    "stop" : 1708425061057,
+    "duration" : 248
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "36d7554b9880824",
+  "name" : "1.3.4 Check response has key job",
+  "time" : {
+    "start" : 1708425059198,
+    "stop" : 1708425059448,
+    "duration" : 250
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "23cce8745adc6eb1",
+  "name" : "test_post_create_user_key_value_is_in_response[job]",
+  "time" : {
+    "start" : 1708425059457,
+    "stop" : 1708425059457,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]
