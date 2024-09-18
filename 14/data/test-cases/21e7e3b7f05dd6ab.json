@@ -1,0 +1,196 @@
+{
+  "uid" : "21e7e3b7f05dd6ab",
+  "name" : "1.4.1 Check key value jobin response",
+  "fullName" : "tests.create_users_test.TestCreateUser#test_post_create_user_key_value_is_in_response",
+  "historyId" : "447884d787bda0a1bee8666fd554ce07",
+  "time" : {
+    "start" : 1726639125304,
+    "stop" : 1726639125548,
+    "duration" : 244
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL Bag\n\nKeyError: 'job'",
+  "statusTrace" : "self = <tests.create_users_test.TestCreateUser object at 0x7fb8e1b26250>\nkey_value = 'job'\n\n    @pytest.mark.positive\n    @pytest.mark.parametrize('key_value', data.CREATE_USER)\n    @pytest.mark.xfail(reason='Bag')\n    def test_post_create_user_key_value_is_in_response(self, key_value):\n        headers = self.data.CREATE_USER\n        test_number = 1 if key_value == 'job' else 2\n        allure.dynamic.title(f'1.4.{test_number} Check key value {key_value}in response')\n        response = BaseRequests.post(url='api/users', headers=headers)\n>       Assertions.assert_key_value_is_in_response(response, headers, key_value)\n\ntests/create_users_test.py:44: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresponse = <Response [201]>\ndata = {'job': 'Surveyor, building', 'name': 'Samantha Mcclain'}\nkey_name = 'job'\n\n    @staticmethod\n    def assert_key_value_is_in_response(response: Response, data, key_name):\n        \"\"\"Check if the required value is in the response\"\"\"\n        json_value = response.json()\n>       actual_key = json_value[key_name]\nE       KeyError: 'job'\n\nbase/assertions.py:42: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1726639123517,
+      "stop" : 1726639123532,
+      "duration" : 15
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Create User"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail(reason='Bag')"
+  }, {
+    "name" : "tag",
+    "value" : "positive"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "create_users_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreateUser"
+  }, {
+    "name" : "host",
+    "value" : "fv-az530-206"
+  }, {
+    "name" : "thread",
+    "value" : "2272-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.create_users_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "key_value",
+    "value" : "'job'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 11,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "97afb55cae143345",
+        "reportUrl" : "https://Nat754.github.io/reqres/13//#testresult/97afb55cae143345",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL Bag\n\nKeyError: 'job'",
+        "time" : {
+          "start" : 1708432774830,
+          "stop" : 1708432775201,
+          "duration" : 371
+        }
+      }, {
+        "uid" : "15c4fddc436e1e97",
+        "reportUrl" : "https://Nat754.github.io/reqres/12//#testresult/15c4fddc436e1e97",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL Bag\n\nKeyError: 'job'",
+        "time" : {
+          "start" : 1708427533271,
+          "stop" : 1708427533521,
+          "duration" : 250
+        }
+      }, {
+        "uid" : "23cce8745adc6eb1",
+        "reportUrl" : "https://Nat754.github.io/reqres/11//#testresult/23cce8745adc6eb1",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL Bag\n\nAttributeError: 'dict' object has no attribute 'index'",
+        "time" : {
+          "start" : 1708425059457,
+          "stop" : 1708425059457,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "41367e78baded561",
+        "reportUrl" : "https://Nat754.github.io/reqres/10//#testresult/41367e78baded561",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL Bag\n\nAttributeError: 'dict' object has no attribute 'index'",
+        "time" : {
+          "start" : 1708420917247,
+          "stop" : 1708420917247,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2aea8165e6332731",
+        "reportUrl" : "https://Nat754.github.io/reqres/9//#testresult/2aea8165e6332731",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL Bag\n\nAttributeError: 'dict' object has no attribute 'index'",
+        "time" : {
+          "start" : 1708420826328,
+          "stop" : 1708420826328,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5b7f156988cb3ee7",
+        "reportUrl" : "https://Nat754.github.io/reqres/8//#testresult/5b7f156988cb3ee7",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL Bag\n\nAttributeError: 'dict' object has no attribute 'index'",
+        "time" : {
+          "start" : 1708420746490,
+          "stop" : 1708420746490,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1f89fff9daa33c3d",
+        "reportUrl" : "https://Nat754.github.io/reqres/7//#testresult/1f89fff9daa33c3d",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL Bag\n\nAttributeError: 'dict' object has no attribute 'index'",
+        "time" : {
+          "start" : 1708418351864,
+          "stop" : 1708418351864,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "216f299c9a2c185b",
+        "reportUrl" : "https://Nat754.github.io/reqres/6//#testresult/216f299c9a2c185b",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL Bag\n\nKeyError: 'job'",
+        "time" : {
+          "start" : 1708412185219,
+          "stop" : 1708412185447,
+          "duration" : 228
+        }
+      }, {
+        "uid" : "350b13d332c78930",
+        "reportUrl" : "https://Nat754.github.io/reqres/5//#testresult/350b13d332c78930",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL Bag\n\nKeyError: 'job'",
+        "time" : {
+          "start" : 1708388622433,
+          "stop" : 1708388622680,
+          "duration" : 247
+        }
+      }, {
+        "uid" : "99d3918044b76616",
+        "reportUrl" : "https://Nat754.github.io/reqres/4//#testresult/99d3918044b76616",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL Bag\n\nKeyError: 'job'",
+        "time" : {
+          "start" : 1708385917384,
+          "stop" : 1708385917740,
+          "duration" : 356
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.xfail(reason='Bag')", "positive" ]
+  },
+  "source" : "21e7e3b7f05dd6ab.json",
+  "parameterValues" : [ "'job'" ]
+}

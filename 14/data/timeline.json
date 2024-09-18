@@ -1,0 +1,234 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az530-206",
+    "children" : [ {
+      "name" : "2272-MainThread",
+      "children" : [ {
+        "name" : "2.5 POST Create user with None job",
+        "uid" : "f0ceca0905d8cbe7",
+        "parentUid" : "aefbf8ddb5eb165e10a6c621e921e4a2",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1726639126643,
+          "stop" : 1726639126892,
+          "duration" : 249
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "1.1 POST Create user",
+        "uid" : "ffd88cbb28a0716",
+        "parentUid" : "aefbf8ddb5eb165e10a6c621e921e4a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726639123532,
+          "stop" : 1726639123789,
+          "duration" : 257
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "1.4.1 Check key value jobin response",
+        "uid" : "21e7e3b7f05dd6ab",
+        "parentUid" : "aefbf8ddb5eb165e10a6c621e921e4a2",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1726639125304,
+          "stop" : 1726639125548,
+          "duration" : 244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'job'" ]
+      }, {
+        "name" : "1.3.4 Check response has key job",
+        "uid" : "5a192e2260118d08",
+        "parentUid" : "aefbf8ddb5eb165e10a6c621e921e4a2",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1726639124817,
+          "stop" : 1726639125057,
+          "duration" : 240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'job'" ]
+      }, {
+        "name" : "2.2 POST Create user without request body",
+        "uid" : "398da92a16308d1",
+        "parentUid" : "aefbf8ddb5eb165e10a6c621e921e4a2",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1726639125878,
+          "stop" : 1726639126111,
+          "duration" : 233
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "1.5 POST Create user response is not empty",
+        "uid" : "3ad9d20a3f9bbce5",
+        "parentUid" : "aefbf8ddb5eb165e10a6c621e921e4a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726639125555,
+          "stop" : 1726639125794,
+          "duration" : 239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "2.6 POST Create user with None name",
+        "uid" : "45a938f2030bbc62",
+        "parentUid" : "aefbf8ddb5eb165e10a6c621e921e4a2",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1726639126897,
+          "stop" : 1726639127144,
+          "duration" : 247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "1.3.1 Check response has key id",
+        "uid" : "25bcde091c8f43c9",
+        "parentUid" : "aefbf8ddb5eb165e10a6c621e921e4a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726639124044,
+          "stop" : 1726639124298,
+          "duration" : 254
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'id'" ]
+      }, {
+        "name" : "2.8 POST Create user get to http",
+        "uid" : "a38ab40d41c4ae59",
+        "parentUid" : "aefbf8ddb5eb165e10a6c621e921e4a2",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1726639127392,
+          "stop" : 1726639127469,
+          "duration" : 77
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "1.3.3 Check response has key name",
+        "uid" : "d8eaebba2ddadf3",
+        "parentUid" : "aefbf8ddb5eb165e10a6c621e921e4a2",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1726639124545,
+          "stop" : 1726639124790,
+          "duration" : 245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'name'" ]
+      }, {
+        "name" : "1.3.2 Check response has key createdAt",
+        "uid" : "e261a7b83b4a949e",
+        "parentUid" : "aefbf8ddb5eb165e10a6c621e921e4a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726639124299,
+          "stop" : 1726639124543,
+          "duration" : 244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'createdAt'" ]
+      }, {
+        "name" : "1.2 Check format is json",
+        "uid" : "9b12a1403d4d834",
+        "parentUid" : "aefbf8ddb5eb165e10a6c621e921e4a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726639123790,
+          "stop" : 1726639124042,
+          "duration" : 252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "2.1 GET Send request get with body",
+        "uid" : "cdeaf880eec40e45",
+        "parentUid" : "aefbf8ddb5eb165e10a6c621e921e4a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726639125796,
+          "stop" : 1726639125877,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "2.3 POST Create user without job",
+        "uid" : "35db8cb4699d5c12",
+        "parentUid" : "aefbf8ddb5eb165e10a6c621e921e4a2",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1726639126115,
+          "stop" : 1726639126385,
+          "duration" : 270
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "1.4.2 Check key value namein response",
+        "uid" : "557fc580e3f54466",
+        "parentUid" : "aefbf8ddb5eb165e10a6c621e921e4a2",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1726639125062,
+          "stop" : 1726639125299,
+          "duration" : 237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'name'" ]
+      }, {
+        "name" : "2.7 POST Create user as {0}",
+        "uid" : "cf48178b1ee78b3e",
+        "parentUid" : "aefbf8ddb5eb165e10a6c621e921e4a2",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1726639127148,
+          "stop" : 1726639127384,
+          "duration" : 236
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "2.4 POST Create user without name",
+        "uid" : "32249e753817a995",
+        "parentUid" : "aefbf8ddb5eb165e10a6c621e921e4a2",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1726639126389,
+          "stop" : 1726639126639,
+          "duration" : 250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aefbf8ddb5eb165e10a6c621e921e4a2"
+    } ],
+    "uid" : "b03d0da4b805a604c0242c0d943bf868"
+  } ],
+  "name" : "timeline"
+}
